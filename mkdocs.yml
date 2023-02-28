@@ -1,0 +1,21 @@
+site_name: Punts notables
+docs_dir: carpeta
+site_dir: docs
+
+nav:
+    - INICI: index.md
+    - PRIMERA PART:
+      - Introducció: tema1/apartat1.md
+      - Mediatriu i circumcentre: tema1/apartat2.md
+      - Medianes i Baricentre: tema1/apartat3.md
+    - SEGONA PART:
+      - Altures i ortocentre: tema2/apartat4.md
+      - Bisectrius i Incentre: tema2/apartat5.md
+    - CONCLUSIONS:
+      - Resum: tema3/apartat6.md
+    - About: about.md
+    
+theme: material
+
+markdown_extensions:
+    - admonition
